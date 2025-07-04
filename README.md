@@ -7,6 +7,10 @@ A full-featured flight search app inspired by Google Flights — built with **Re
 ## 📸 Preview
 
 ![Flight Search UI Screenshot](./public/preview.png)  
+<<<<<<< HEAD
+=======
+<sub>*(Replace with an actual screenshot for better presentation)*</sub>
+>>>>>>> 5435786eaf18acf7a291c16ac535d332dc91b503
 
 ---
 
