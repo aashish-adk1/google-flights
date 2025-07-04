@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom"
-import useFlightSearch from "../hooks/useFlightSearch";
+import useFlightSearch from "../Hooks/useFlightSearch";
 import FlightResultsTable from "../FlightResultsTable/FlightResultsTable";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
