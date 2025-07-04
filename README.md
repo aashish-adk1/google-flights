@@ -1,12 +1,61 @@
-# React + Vite
+# ✈️ Flight Search App (Google Flights Clone)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-featured flight search app inspired by Google Flights — built with **React**, **Tailwind CSS**, and **RapidAPI's SkyScrapper API**. It lets users search flights with real-time or fallback mock data.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## Expanding the ESLint configuration
+![Flight Search UI Screenshot](./public/preview.png)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- 🔍 Autocomplete for "From" and "To" airports
+- 📅 Date pickers for departure and return
+- 👨‍👩‍👧‍👦 Passenger selector with validation
+- 🎫 Travel class filter (Economy, Business, etc.)
+- 📊 Live or mock flight results with error handling
+- 📱 Responsive and clean UI
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** – Frontend library  
+- **Tailwind CSS** – Utility-first CSS  
+- **React Router DOM** – Routing  
+- **RapidAPI SkyScrapper** – Flight API  
+- **date-fns** – Date formatting  
+
+---
+
+## 📦 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/flight-search-app.git
+cd flight-search-app
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### ⚙️ Environment Setup
+Create a .env file in the root directory:
+```bash
+VITE_RAPIDAPI_KEY=your_rapidapi_key_here
+```
+🔐 Get your API key from RapidAPI – SkyScrapper
+
+### Running the App
+```bash
+npm run dev
+```
+Now visit: http://localhost:5173
+
